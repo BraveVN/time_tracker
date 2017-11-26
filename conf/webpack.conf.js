@@ -22,6 +22,10 @@ module.exports = {
         enforce: 'pre'
       },
       {
+        test: /\.(png|jpg|svg)$/,
+        loader: 'url-loader'
+      },
+      {
         test: /\.(css|scss)$/,
         loaders: [
           'style-loader',
