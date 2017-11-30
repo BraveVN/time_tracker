@@ -5,5 +5,5 @@ module.exports = {
 
 /** @ngInject */
 function Hero() {
-  this.hello = 'This is a hero page';
+  this.counter = '00:00:00';
 }
